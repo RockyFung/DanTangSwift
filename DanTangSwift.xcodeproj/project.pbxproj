@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C407B931D5DB51400741154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C407B921D5DB51400741154 /* AppDelegate.swift */; };
+		5C407B951D5DB51400741154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C407B941D5DB51400741154 /* ViewController.swift */; };
+		5C407B981D5DB51400741154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C407B961D5DB51400741154 /* Main.storyboard */; };
+		5C407B9A1D5DB51400741154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C407B991D5DB51400741154 /* Assets.xcassets */; };
+		5C407B9D1D5DB51400741154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C407B9B1D5DB51400741154 /* LaunchScreen.storyboard */; };
+		5C407BA81D5DB51400741154 /* DanTangSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C407BA71D5DB51400741154 /* DanTangSwiftTests.swift */; };
+		5C407BB31D5DB51400741154 /* DanTangSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C407BB21D5DB51400741154 /* DanTangSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C407BA41D5DB51400741154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C407B871D5DB51400741154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C407B8E1D5DB51400741154;
+			remoteInfo = DanTangSwift;
+		};
+		5C407BAF1D5DB51400741154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C407B871D5DB51400741154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C407B8E1D5DB51400741154;
+			remoteInfo = DanTangSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C407B8F1D5DB51400741154 /* DanTangSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanTangSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C407B921D5DB51400741154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C407B941D5DB51400741154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C407B971D5DB51400741154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C407B991D5DB51400741154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C407B9C1D5DB51400741154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C407B9E1D5DB51400741154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C407BA31D5DB51400741154 /* DanTangSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanTangSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C407BA71D5DB51400741154 /* DanTangSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTangSwiftTests.swift; sourceTree = "<group>"; };
+		5C407BA91D5DB51400741154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C407BAE1D5DB51400741154 /* DanTangSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanTangSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C407BB21D5DB51400741154 /* DanTangSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTangSwiftUITests.swift; sourceTree = "<group>"; };
+		5C407BB41D5DB51400741154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C407B8C1D5DB51400741154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C407BA01D5DB51400741154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C407BAB1D5DB51400741154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C407B861D5DB51400741154 = {
+			isa = PBXGroup;
+			children = (
+				5C407B911D5DB51400741154 /* DanTangSwift */,
+				5C407BA61D5DB51400741154 /* DanTangSwiftTests */,
+				5C407BB11D5DB51400741154 /* DanTangSwiftUITests */,
+				5C407B901D5DB51400741154 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C407B901D5DB51400741154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C407B8F1D5DB51400741154 /* DanTangSwift.app */,
+				5C407BA31D5DB51400741154 /* DanTangSwiftTests.xctest */,
+				5C407BAE1D5DB51400741154 /* DanTangSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C407B911D5DB51400741154 /* DanTangSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5C407B921D5DB51400741154 /* AppDelegate.swift */,
+				5C407B941D5DB51400741154 /* ViewController.swift */,
+				5C407B961D5DB51400741154 /* Main.storyboard */,
+				5C407B991D5DB51400741154 /* Assets.xcassets */,
+				5C407B9B1D5DB51400741154 /* LaunchScreen.storyboard */,
+				5C407B9E1D5DB51400741154 /* Info.plist */,
+			);
+			path = DanTangSwift;
+			sourceTree = "<group>";
+		};
+		5C407BA61D5DB51400741154 /* DanTangSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C407BA71D5DB51400741154 /* DanTangSwiftTests.swift */,
+				5C407BA91D5DB51400741154 /* Info.plist */,
+			);
+			path = DanTangSwiftTests;
+			sourceTree = "<group>";
+		};
+		5C407BB11D5DB51400741154 /* DanTangSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C407BB21D5DB51400741154 /* DanTangSwiftUITests.swift */,
+				5C407BB41D5DB51400741154 /* Info.plist */,
+			);
+			path = DanTangSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C407B8E1D5DB51400741154 /* DanTangSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C407BB71D5DB51400741154 /* Build configuration list for PBXNativeTarget "DanTangSwift" */;
+			buildPhases = (
+				5C407B8B1D5DB51400741154 /* Sources */,
+				5C407B8C1D5DB51400741154 /* Frameworks */,
+				5C407B8D1D5DB51400741154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanTangSwift;
+			productName = DanTangSwift;
+			productReference = 5C407B8F1D5DB51400741154 /* DanTangSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C407BA21D5DB51400741154 /* DanTangSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C407BBA1D5DB51400741154 /* Build configuration list for PBXNativeTarget "DanTangSwiftTests" */;
+			buildPhases = (
+				5C407B9F1D5DB51400741154 /* Sources */,
+				5C407BA01D5DB51400741154 /* Frameworks */,
+				5C407BA11D5DB51400741154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C407BA51D5DB51400741154 /* PBXTargetDependency */,
+			);
+			name = DanTangSwiftTests;
+			productName = DanTangSwiftTests;
+			productReference = 5C407BA31D5DB51400741154 /* DanTangSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C407BAD1D5DB51400741154 /* DanTangSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C407BBD1D5DB51400741154 /* Build configuration list for PBXNativeTarget "DanTangSwiftUITests" */;
+			buildPhases = (
+				5C407BAA1D5DB51400741154 /* Sources */,
+				5C407BAB1D5DB51400741154 /* Frameworks */,
+				5C407BAC1D5DB51400741154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C407BB01D5DB51400741154 /* PBXTargetDependency */,
+			);
+			name = DanTangSwiftUITests;
+			productName = DanTangSwiftUITests;
+			productReference = 5C407BAE1D5DB51400741154 /* DanTangSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C407B871D5DB51400741154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = RockyFung;
+				TargetAttributes = {
+					5C407B8E1D5DB51400741154 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5C407BA21D5DB51400741154 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5C407B8E1D5DB51400741154;
+					};
+					5C407BAD1D5DB51400741154 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5C407B8E1D5DB51400741154;
+					};
+				};
+			};
+			buildConfigurationList = 5C407B8A1D5DB51400741154 /* Build configuration list for PBXProject "DanTangSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C407B861D5DB51400741154;
+			productRefGroup = 5C407B901D5DB51400741154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C407B8E1D5DB51400741154 /* DanTangSwift */,
+				5C407BA21D5DB51400741154 /* DanTangSwiftTests */,
+				5C407BAD1D5DB51400741154 /* DanTangSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C407B8D1D5DB51400741154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C407B9D1D5DB51400741154 /* LaunchScreen.storyboard in Resources */,
+				5C407B9A1D5DB51400741154 /* Assets.xcassets in Resources */,
+				5C407B981D5DB51400741154 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C407BA11D5DB51400741154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C407BAC1D5DB51400741154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C407B8B1D5DB51400741154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C407B951D5DB51400741154 /* ViewController.swift in Sources */,
+				5C407B931D5DB51400741154 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C407B9F1D5DB51400741154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C407BA81D5DB51400741154 /* DanTangSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C407BAA1D5DB51400741154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C407BB31D5DB51400741154 /* DanTangSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C407BA51D5DB51400741154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C407B8E1D5DB51400741154 /* DanTangSwift */;
+			targetProxy = 5C407BA41D5DB51400741154 /* PBXContainerItemProxy */;
+		};
+		5C407BB01D5DB51400741154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C407B8E1D5DB51400741154 /* DanTangSwift */;
+			targetProxy = 5C407BAF1D5DB51400741154 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C407B961D5DB51400741154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C407B971D5DB51400741154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C407B9B1D5DB51400741154 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C407B9C1D5DB51400741154 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C407BB51D5DB51400741154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C407BB61D5DB51400741154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C407BB81D5DB51400741154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DanTangSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.DanTangSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C407BB91D5DB51400741154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DanTangSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.DanTangSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C407BBB1D5DB51400741154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DanTangSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.DanTangSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanTangSwift.app/DanTangSwift";
+			};
+			name = Debug;
+		};
+		5C407BBC1D5DB51400741154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DanTangSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.DanTangSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanTangSwift.app/DanTangSwift";
+			};
+			name = Release;
+		};
+		5C407BBE1D5DB51400741154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DanTangSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.DanTangSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DanTangSwift;
+			};
+			name = Debug;
+		};
+		5C407BBF1D5DB51400741154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DanTangSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RockyFung.DanTangSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DanTangSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C407B8A1D5DB51400741154 /* Build configuration list for PBXProject "DanTangSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C407BB51D5DB51400741154 /* Debug */,
+				5C407BB61D5DB51400741154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C407BB71D5DB51400741154 /* Build configuration list for PBXNativeTarget "DanTangSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C407BB81D5DB51400741154 /* Debug */,
+				5C407BB91D5DB51400741154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C407BBA1D5DB51400741154 /* Build configuration list for PBXNativeTarget "DanTangSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C407BBB1D5DB51400741154 /* Debug */,
+				5C407BBC1D5DB51400741154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C407BBD1D5DB51400741154 /* Build configuration list for PBXNativeTarget "DanTangSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C407BBE1D5DB51400741154 /* Debug */,
+				5C407BBF1D5DB51400741154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C407B871D5DB51400741154 /* Project object */;
+}
