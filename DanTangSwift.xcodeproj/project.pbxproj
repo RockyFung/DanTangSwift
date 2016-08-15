@@ -14,6 +14,17 @@
 		5C407B9D1D5DB51400741154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C407B9B1D5DB51400741154 /* LaunchScreen.storyboard */; };
 		5C407BA81D5DB51400741154 /* DanTangSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C407BA71D5DB51400741154 /* DanTangSwiftTests.swift */; };
 		5C407BB31D5DB51400741154 /* DanTangSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C407BB21D5DB51400741154 /* DanTangSwiftUITests.swift */; };
+		5C44E0B91D5DB9580081B0DD /* RFCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E09F1D5DB9580081B0DD /* RFCategoryViewController.swift */; };
+		5C44E0BA1D5DB9580081B0DD /* RFDanTangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0A41D5DB9580081B0DD /* RFDanTangViewController.swift */; };
+		5C44E0BB1D5DB9580081B0DD /* RFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0AA1D5DB9580081B0DD /* RFBaseViewController.swift */; };
+		5C44E0BC1D5DB9580081B0DD /* RFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0AB1D5DB9580081B0DD /* RFNavigationController.swift */; };
+		5C44E0BD1D5DB9580081B0DD /* RFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0AC1D5DB9580081B0DD /* RFTabBarController.swift */; };
+		5C44E0BE1D5DB9580081B0DD /* RFConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0AE1D5DB9580081B0DD /* RFConst.swift */; };
+		5C44E0BF1D5DB9580081B0DD /* RFMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0B11D5DB9580081B0DD /* RFMeViewController.swift */; };
+		5C44E0C01D5DB9580081B0DD /* RFProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0B61D5DB9580081B0DD /* RFProductViewController.swift */; };
+		5C44E0C21D5DC5CC0081B0DD /* RFNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0C11D5DC5CC0081B0DD /* RFNetworkTool.swift */; };
+		5C44E0C41D5DC7200081B0DD /* RFChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0C31D5DC7200081B0DD /* RFChannel.swift */; };
+		6BF6832C46665408CACD03BB /* Pods_DanTangSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F46882E26C1E815E30FDB0E /* Pods_DanTangSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F46882E26C1E815E30FDB0E /* Pods_DanTangSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanTangSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C407B8F1D5DB51400741154 /* DanTangSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanTangSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C407B921D5DB51400741154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C407B941D5DB51400741154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,18 @@
 		5C407BAE1D5DB51400741154 /* DanTangSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanTangSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C407BB21D5DB51400741154 /* DanTangSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanTangSwiftUITests.swift; sourceTree = "<group>"; };
 		5C407BB41D5DB51400741154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C44E09F1D5DB9580081B0DD /* RFCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFCategoryViewController.swift; sourceTree = "<group>"; };
+		5C44E0A41D5DB9580081B0DD /* RFDanTangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFDanTangViewController.swift; sourceTree = "<group>"; };
+		5C44E0AA1D5DB9580081B0DD /* RFBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFBaseViewController.swift; sourceTree = "<group>"; };
+		5C44E0AB1D5DB9580081B0DD /* RFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFNavigationController.swift; sourceTree = "<group>"; };
+		5C44E0AC1D5DB9580081B0DD /* RFTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFTabBarController.swift; sourceTree = "<group>"; };
+		5C44E0AE1D5DB9580081B0DD /* RFConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFConst.swift; sourceTree = "<group>"; };
+		5C44E0B11D5DB9580081B0DD /* RFMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFMeViewController.swift; sourceTree = "<group>"; };
+		5C44E0B61D5DB9580081B0DD /* RFProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFProductViewController.swift; sourceTree = "<group>"; };
+		5C44E0C11D5DC5CC0081B0DD /* RFNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFNetworkTool.swift; sourceTree = "<group>"; };
+		5C44E0C31D5DC7200081B0DD /* RFChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFChannel.swift; sourceTree = "<group>"; };
+		C258FA3AD0FEEA9A638D3DF2 /* Pods-DanTangSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTangSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanTangSwift/Pods-DanTangSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C7501AFB74BDA1064B38A94B /* Pods-DanTangSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTangSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanTangSwift/Pods-DanTangSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF6832C46665408CACD03BB /* Pods_DanTangSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,8 @@
 				5C407BA61D5DB51400741154 /* DanTangSwiftTests */,
 				5C407BB11D5DB51400741154 /* DanTangSwiftUITests */,
 				5C407B901D5DB51400741154 /* Products */,
+				D9D8A63887749129144B4E22 /* Pods */,
+				F83253FD4DEF4FB2D693AC41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +124,7 @@
 		5C407B911D5DB51400741154 /* DanTangSwift */ = {
 			isa = PBXGroup;
 			children = (
+				5C44E09C1D5DB9580081B0DD /* Classes */,
 				5C407B921D5DB51400741154 /* AppDelegate.swift */,
 				5C407B941D5DB51400741154 /* ViewController.swift */,
 				5C407B961D5DB51400741154 /* Main.storyboard */,
@@ -125,6 +153,200 @@
 			path = DanTangSwiftUITests;
 			sourceTree = "<group>";
 		};
+		5C44E09C1D5DB9580081B0DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E09D1D5DB9580081B0DD /* Classify */,
+				5C44E0A21D5DB9580081B0DD /* DanTang */,
+				5C44E0A71D5DB9580081B0DD /* Main */,
+				5C44E0AF1D5DB9580081B0DD /* Me */,
+				5C44E0B41D5DB9580081B0DD /* Products */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5C44E09D1D5DB9580081B0DD /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E09E1D5DB9580081B0DD /* Controller */,
+				5C44E0A01D5DB9580081B0DD /* Model */,
+				5C44E0A11D5DB9580081B0DD /* View */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		5C44E09E1D5DB9580081B0DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E09F1D5DB9580081B0DD /* RFCategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C44E0A01D5DB9580081B0DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C44E0A11D5DB9580081B0DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C44E0A21D5DB9580081B0DD /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E0A31D5DB9580081B0DD /* Controller */,
+				5C44E0A51D5DB9580081B0DD /* Model */,
+				5C44E0A61D5DB9580081B0DD /* View */,
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		5C44E0A31D5DB9580081B0DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E0A41D5DB9580081B0DD /* RFDanTangViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C44E0A51D5DB9580081B0DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E0C31D5DC7200081B0DD /* RFChannel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C44E0A61D5DB9580081B0DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C44E0A71D5DB9580081B0DD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E0A81D5DB9580081B0DD /* Category */,
+				5C44E0A91D5DB9580081B0DD /* Controller */,
+				5C44E0AD1D5DB9580081B0DD /* Tools */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5C44E0A81D5DB9580081B0DD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5C44E0A91D5DB9580081B0DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E0AA1D5DB9580081B0DD /* RFBaseViewController.swift */,
+				5C44E0AB1D5DB9580081B0DD /* RFNavigationController.swift */,
+				5C44E0AC1D5DB9580081B0DD /* RFTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C44E0AD1D5DB9580081B0DD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E0AE1D5DB9580081B0DD /* RFConst.swift */,
+				5C44E0C11D5DC5CC0081B0DD /* RFNetworkTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		5C44E0AF1D5DB9580081B0DD /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E0B01D5DB9580081B0DD /* Controller */,
+				5C44E0B21D5DB9580081B0DD /* Model */,
+				5C44E0B31D5DB9580081B0DD /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		5C44E0B01D5DB9580081B0DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E0B11D5DB9580081B0DD /* RFMeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C44E0B21D5DB9580081B0DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C44E0B31D5DB9580081B0DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C44E0B41D5DB9580081B0DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E0B51D5DB9580081B0DD /* Controller */,
+				5C44E0B71D5DB9580081B0DD /* Model */,
+				5C44E0B81D5DB9580081B0DD /* View */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		5C44E0B51D5DB9580081B0DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C44E0B61D5DB9580081B0DD /* RFProductViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C44E0B71D5DB9580081B0DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C44E0B81D5DB9580081B0DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9D8A63887749129144B4E22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7501AFB74BDA1064B38A94B /* Pods-DanTangSwift.debug.xcconfig */,
+				C258FA3AD0FEEA9A638D3DF2 /* Pods-DanTangSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F83253FD4DEF4FB2D693AC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F46882E26C1E815E30FDB0E /* Pods_DanTangSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +354,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C407BB71D5DB51400741154 /* Build configuration list for PBXNativeTarget "DanTangSwift" */;
 			buildPhases = (
+				C657B2B397F7B90AF5B74BD5 /* 📦 Check Pods Manifest.lock */,
 				5C407B8B1D5DB51400741154 /* Sources */,
 				5C407B8C1D5DB51400741154 /* Frameworks */,
 				5C407B8D1D5DB51400741154 /* Resources */,
+				5B7819387C0C90BA6C3F73F3 /* 📦 Embed Pods Frameworks */,
+				5397E6E1D0355BDABEA6CEE1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +476,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5397E6E1D0355BDABEA6CEE1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTangSwift/Pods-DanTangSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B7819387C0C90BA6C3F73F3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanTangSwift/Pods-DanTangSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C657B2B397F7B90AF5B74BD5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C407B8B1D5DB51400741154 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5C407B951D5DB51400741154 /* ViewController.swift in Sources */,
+				5C44E0BB1D5DB9580081B0DD /* RFBaseViewController.swift in Sources */,
+				5C44E0BD1D5DB9580081B0DD /* RFTabBarController.swift in Sources */,
+				5C44E0C21D5DC5CC0081B0DD /* RFNetworkTool.swift in Sources */,
+				5C44E0BC1D5DB9580081B0DD /* RFNavigationController.swift in Sources */,
+				5C44E0BE1D5DB9580081B0DD /* RFConst.swift in Sources */,
+				5C44E0BF1D5DB9580081B0DD /* RFMeViewController.swift in Sources */,
+				5C44E0B91D5DB9580081B0DD /* RFCategoryViewController.swift in Sources */,
+				5C44E0C01D5DB9580081B0DD /* RFProductViewController.swift in Sources */,
 				5C407B931D5DB51400741154 /* AppDelegate.swift in Sources */,
+				5C44E0BA1D5DB9580081B0DD /* RFDanTangViewController.swift in Sources */,
+				5C44E0C41D5DC7200081B0DD /* RFChannel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +682,7 @@
 		};
 		5C407BB81D5DB51400741154 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7501AFB74BDA1064B38A94B /* Pods-DanTangSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DanTangSwift/Info.plist;
@@ -410,6 +694,7 @@
 		};
 		5C407BB91D5DB51400741154 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C258FA3AD0FEEA9A638D3DF2 /* Pods-DanTangSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DanTangSwift/Info.plist;
@@ -484,6 +769,7 @@
 				5C407BB91D5DB51400741154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C407BBA1D5DB51400741154 /* Build configuration list for PBXNativeTarget "DanTangSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +778,7 @@
 				5C407BBC1D5DB51400741154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C407BBD1D5DB51400741154 /* Build configuration list for PBXNativeTarget "DanTangSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +787,7 @@
 				5C407BBF1D5DB51400741154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
