@@ -24,6 +24,11 @@
 		5C44E0C01D5DB9580081B0DD /* RFProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0B61D5DB9580081B0DD /* RFProductViewController.swift */; };
 		5C44E0C21D5DC5CC0081B0DD /* RFNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0C11D5DC5CC0081B0DD /* RFNetworkTool.swift */; };
 		5C44E0C41D5DC7200081B0DD /* RFChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44E0C31D5DC7200081B0DD /* RFChannel.swift */; };
+		5C6220E11D61B1A100ECA63C /* RFTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6220E01D61B1A100ECA63C /* RFTopicViewController.swift */; };
+		5C6220E31D61B28000ECA63C /* RFHomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6220E21D61B28000ECA63C /* RFHomeItem.swift */; };
+		5C6220E91D61BB5C00ECA63C /* UIView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6220E81D61BB5C00ECA63C /* UIView+Add.swift */; };
+		5C907E511D62EEF400FBF5F9 /* RFHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C907E4F1D62EEF400FBF5F9 /* RFHomeCell.swift */; };
+		5C907E521D62EEF400FBF5F9 /* RFHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C907E501D62EEF400FBF5F9 /* RFHomeCell.xib */; };
 		6BF6832C46665408CACD03BB /* Pods_DanTangSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F46882E26C1E815E30FDB0E /* Pods_DanTangSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +74,11 @@
 		5C44E0B61D5DB9580081B0DD /* RFProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFProductViewController.swift; sourceTree = "<group>"; };
 		5C44E0C11D5DC5CC0081B0DD /* RFNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFNetworkTool.swift; sourceTree = "<group>"; };
 		5C44E0C31D5DC7200081B0DD /* RFChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFChannel.swift; sourceTree = "<group>"; };
+		5C6220E01D61B1A100ECA63C /* RFTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFTopicViewController.swift; sourceTree = "<group>"; };
+		5C6220E21D61B28000ECA63C /* RFHomeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFHomeItem.swift; sourceTree = "<group>"; };
+		5C6220E81D61BB5C00ECA63C /* UIView+Add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Add.swift"; sourceTree = "<group>"; };
+		5C907E4F1D62EEF400FBF5F9 /* RFHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFHomeCell.swift; sourceTree = "<group>"; };
+		5C907E501D62EEF400FBF5F9 /* RFHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFHomeCell.xib; sourceTree = "<group>"; };
 		C258FA3AD0FEEA9A638D3DF2 /* Pods-DanTangSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTangSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanTangSwift/Pods-DanTangSwift.release.xcconfig"; sourceTree = "<group>"; };
 		C7501AFB74BDA1064B38A94B /* Pods-DanTangSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTangSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanTangSwift/Pods-DanTangSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				5C44E0A41D5DB9580081B0DD /* RFDanTangViewController.swift */,
+				5C6220E01D61B1A100ECA63C /* RFTopicViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -219,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				5C44E0C31D5DC7200081B0DD /* RFChannel.swift */,
+				5C6220E21D61B28000ECA63C /* RFHomeItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,6 +238,8 @@
 		5C44E0A61D5DB9580081B0DD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5C907E4F1D62EEF400FBF5F9 /* RFHomeCell.swift */,
+				5C907E501D62EEF400FBF5F9 /* RFHomeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -243,6 +257,7 @@
 		5C44E0A81D5DB9580081B0DD /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				5C6220E81D61BB5C00ECA63C /* UIView+Add.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -454,6 +469,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C907E521D62EEF400FBF5F9 /* RFHomeCell.xib in Resources */,
 				5C407B9D1D5DB51400741154 /* LaunchScreen.storyboard in Resources */,
 				5C407B9A1D5DB51400741154 /* Assets.xcassets in Resources */,
 				5C407B981D5DB51400741154 /* Main.storyboard in Resources */,
@@ -534,13 +550,17 @@
 				5C44E0BD1D5DB9580081B0DD /* RFTabBarController.swift in Sources */,
 				5C44E0C21D5DC5CC0081B0DD /* RFNetworkTool.swift in Sources */,
 				5C44E0BC1D5DB9580081B0DD /* RFNavigationController.swift in Sources */,
+				5C6220E31D61B28000ECA63C /* RFHomeItem.swift in Sources */,
 				5C44E0BE1D5DB9580081B0DD /* RFConst.swift in Sources */,
 				5C44E0BF1D5DB9580081B0DD /* RFMeViewController.swift in Sources */,
+				5C6220E11D61B1A100ECA63C /* RFTopicViewController.swift in Sources */,
 				5C44E0B91D5DB9580081B0DD /* RFCategoryViewController.swift in Sources */,
 				5C44E0C01D5DB9580081B0DD /* RFProductViewController.swift in Sources */,
 				5C407B931D5DB51400741154 /* AppDelegate.swift in Sources */,
+				5C907E511D62EEF400FBF5F9 /* RFHomeCell.swift in Sources */,
 				5C44E0BA1D5DB9580081B0DD /* RFDanTangViewController.swift in Sources */,
 				5C44E0C41D5DC7200081B0DD /* RFChannel.swift in Sources */,
+				5C6220E91D61BB5C00ECA63C /* UIView+Add.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
