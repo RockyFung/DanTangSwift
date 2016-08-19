@@ -37,6 +37,7 @@ class RFNavigationController: UINavigationController {
             leftBtn.image = UIImage(named: "checkUserType_backward_9x15_")
             viewController.navigationItem.leftBarButtonItem = leftBtn
         }
+        super.pushViewController(viewController, animated: true)
     }
     
     

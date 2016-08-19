@@ -49,9 +49,10 @@ class RFDanTangViewController: RFBaseViewController {
         
     }
     
-    
+    // 搜索按钮方法
     func clickSearchBtn(){
-        
+        let searchBarVc = RFSearchViewController()
+        navigationController?.pushViewController(searchBarVc, animated: true)
     }
     
     
@@ -109,7 +110,7 @@ class RFDanTangViewController: RFBaseViewController {
             if index == 0 {
                 button.enabled = false
                 selectedButton = button
-                // 让按钮内部的Label根据文字来计算宽度
+                // 底部红线的宽度和按钮标题宽度相等
                 button.titleLabel?.sizeToFit()
                 indicatorView.width = button.titleLabel!.width
                 indicatorView.centerX = button.centerX
@@ -174,7 +175,7 @@ class RFDanTangViewController: RFBaseViewController {
 
 
 
-// 添加分类方法
+// 代理方法
 extension RFDanTangViewController: UIScrollViewDelegate{
     func scrollViewDidEndScrollingAnimation(scrollView: UIScrollView) {
         // 添加自控制器的view

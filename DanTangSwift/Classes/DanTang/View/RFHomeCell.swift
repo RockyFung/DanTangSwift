@@ -32,8 +32,8 @@ class RFHomeCell: UITableViewCell {
             bgImageView.kf_setImageWithURL(NSURL(string: url!), placeholderImage: nil, optionsInfo: nil, progressBlock: nil) { (image, error, cacheType, imageURL) in
                 self.placeholderBtn.hidden = true
             }
-            titleLabel.text = homeItem?.title
-            favoriteBtn.setTitle(" " + String(homeItem?.likes_count) + " " , forState: .Normal)
+            titleLabel.text = homeItem!.title
+            favoriteBtn.setTitle(" " + String(homeItem!.likes_count!) + " " , forState: .Normal)
         }
     }
     

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="RFSortCell" customModule="DanTangSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ju-1y-exo">
+                        <rect key="frame" x="8" y="34" width="304" height="1"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="PSq-m5-rhu"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDE-J3-mbR" userLabel="Title Label">
+                        <rect key="frame" x="8" y="8" width="304" height="26"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="3ju-1y-exo" firstAttribute="top" secondItem="sDE-J3-mbR" secondAttribute="bottom" id="4p0-2Q-ES6"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="3ju-1y-exo" secondAttribute="bottom" id="MDW-a0-SZN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="3ju-1y-exo" secondAttribute="trailing" id="aiX-zp-heZ"/>
+                    <constraint firstItem="sDE-J3-mbR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="cMV-tR-YPZ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="sDE-J3-mbR" secondAttribute="trailing" id="jNA-zg-9uf"/>
+                    <constraint firstItem="sDE-J3-mbR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="mT0-bQ-Ddy"/>
+                    <constraint firstItem="3ju-1y-exo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="zc2-ks-XDS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="titleLabel" destination="sDE-J3-mbR" id="ObU-8Y-CYI"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
