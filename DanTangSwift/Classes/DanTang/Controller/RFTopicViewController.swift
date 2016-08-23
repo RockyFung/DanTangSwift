@@ -20,16 +20,23 @@ class RFTopicViewController: UITableViewController, RFHomeCellDelegate {
         setupTableVew()
         
         // 添加刷新控件
+        refreshControl = RFRefreshControl()
+        refreshControl?.beginRefreshing()
+        refreshControl?.addTarget(self, action: #selector(loadHomeData), forControlEvents: .ValueChanged)
         
+        // 获取首页数据
+        loadHomeData()
+        
+    }
+    
+    func loadHomeData(){
         // 获取首页数据
         RFNetworkTool.shareNetworkTool.loadHomeInfo(type) { (homeItems) in
             self.items = homeItems
             self.tableView.reloadData()
             self.refreshControl?.endRefreshing()
         }
-        
     }
-    
     
     
     func setupTableVew(){

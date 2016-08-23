@@ -164,8 +164,119 @@ class RFNetworkTool: NSObject {
     }
     
     
+    // 获取单品数据
+    func loadProductData(finished:(products: [RFProduct]) -> ()){
+        SVProgressHUD.showWithStatus("正在加载。。。")
+        let url = BASE_URL + "v2/items"
+        let params = ["gender": 1,
+                      "generation": 1,
+                      "limit": 20,
+                      "offset": 0]
+        
+        Alamofire
+        .request(.GET, url, parameters: params)
+        .responseJSON { (response) in
+            guard response.result.isSuccess else{
+                SVProgressHUD.showWithStatus("加载失败...")
+                return
+            }
+            
+            if let value = response.result.value {
+                let dict = JSON(value)
+                let code = dict["code"].intValue
+                let message = dict["message"].stringValue
+                
+                guard code == RETURN_OK else{
+                    SVProgressHUD.showInfoWithStatus(message)
+                    return
+                }
+                SVProgressHUD.dismiss()
+                if let data = dict["data"].dictionary{
+                    if let items = data["items"]?.arrayObject{
+                        var products = [RFProduct]()
+                        for item in items{
+                            if let itemData = item["data"]{
+                                let product = RFProduct(dict: itemData as! [String: AnyObject])
+                                products.append(product)
+                            }
+                        }
+                        finished(products: products)
+                    }
+                }
+            }
+        }
+    }
     
+    // 获取单品详情数据
+    func loadProductDetailData(id: Int, finished:(productDetail: RFProductDetail) -> ()){
+        SVProgressHUD.showWithStatus("正在加载...")
+        let url = BASE_URL + "v2/items/\(id)"
+        Alamofire
+        .request(.GET, url)
+        .responseJSON { (response) in
+            guard response.result.isSuccess else{
+                SVProgressHUD.showErrorWithStatus("加载失败...")
+                return
+            }
+            
+            if let value = response.result.value {
+                let dict = JSON(value)
+                let code = dict["code"].intValue
+                let message = dict["message"].stringValue
+                guard code == RETURN_OK else{
+                    SVProgressHUD.showErrorWithStatus(message)
+                    return
+                }
+                
+                SVProgressHUD.dismiss()
+                if let data = dict["data"].dictionaryObject {
+                    let productDetail = RFProductDetail(dict: data)
+                    finished(productDetail: productDetail)
+                }
+            }
+        }
+    }
     
+    // 商品详情评论
+    func loadProductDetailComments(id: Int, finished:(comments: [RFComment]) -> ()){
+        SVProgressHUD.showErrorWithStatus("正在加载...")
+        let url = BASE_URL + "v2/items/\(id)/comments"
+        let params = ["limit": 20,
+                      "offset": 0]
+        
+        Alamofire
+        .request(.GET, url, parameters: params)
+        .responseJSON { (response) in
+            guard response.result.isSuccess else{
+                SVProgressHUD.showErrorWithStatus("加载失败...")
+                return
+            }
+            
+            if let value = response.result.value {
+                let dict = JSON(value)
+                let code = dict["code"].intValue
+                let message = dict["message"].stringValue
+                
+                guard code == RETURN_OK else{
+                    SVProgressHUD.showErrorWithStatus(message)
+                    return
+                }
+                
+                SVProgressHUD.dismiss()
+                
+                if let data = dict["data"].dictionary {
+                    if let commentsData = data["comments"]?.arrayObject{
+                        var comments = [RFComment]()
+                        for item in commentsData{
+                            let comment = RFComment(dict: item as! [String: AnyObject])
+                            comments .append(comment)
+                        }
+                        finished(comments: comments)
+                    }
+                }
+            }
+        }
+    }
     
     
     

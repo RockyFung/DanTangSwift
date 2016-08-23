@@ -28,6 +28,13 @@
 		5C52E8221D646255007C1AC2 /* RFSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52E8211D646255007C1AC2 /* RFSearchViewController.swift */; };
 		5C52E8241D64636D007C1AC2 /* RFSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52E8231D64636D007C1AC2 /* RFSearchResult.swift */; };
 		5C52E8261D647158007C1AC2 /* RFSearchRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52E8251D647158007C1AC2 /* RFSearchRecordView.swift */; };
+		5C5D238C1D6ACB5500B79329 /* RFRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D238B1D6ACB5500B79329 /* RFRefreshControl.swift */; };
+		5C5D238E1D6AD20800B79329 /* RFRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D238D1D6AD20800B79329 /* RFRefreshView.swift */; };
+		5C5D23901D6AD23E00B79329 /* RFRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C5D238F1D6AD23E00B79329 /* RFRefreshView.xib */; };
+		5C5D23921D6AF4F800B79329 /* RFProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D23911D6AF4F800B79329 /* RFProductDetailViewController.swift */; };
+		5C5D23951D6AF52100B79329 /* RFTMALLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D23931D6AF52100B79329 /* RFTMALLViewController.swift */; };
+		5C5D23961D6AF52100B79329 /* RFTMALLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C5D23941D6AF52100B79329 /* RFTMALLViewController.xib */; };
+		5C5D23981D6AF89300B79329 /* RFDetailScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D23971D6AF89300B79329 /* RFDetailScrollView.swift */; };
 		5C6220E11D61B1A100ECA63C /* RFTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6220E01D61B1A100ECA63C /* RFTopicViewController.swift */; };
 		5C6220E31D61B28000ECA63C /* RFHomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6220E21D61B28000ECA63C /* RFHomeItem.swift */; };
 		5C6220E91D61BB5C00ECA63C /* UIView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6220E81D61BB5C00ECA63C /* UIView+Add.swift */; };
@@ -39,6 +46,14 @@
 		5C62A1671D66F44800D53BAD /* RFSortTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62A1661D66F44800D53BAD /* RFSortTableView.swift */; };
 		5C62A16A1D66F85400D53BAD /* RFSortCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C62A1681D66F85400D53BAD /* RFSortCell.swift */; };
 		5C62A16B1D66F85400D53BAD /* RFSortCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C62A1691D66F85400D53BAD /* RFSortCell.xib */; };
+		5C67C59A1D6C2A4600FBDC3A /* RFProductDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67C5991D6C2A4600FBDC3A /* RFProductDetailTopView.swift */; };
+		5C67C59D1D6C2D1A00FBDC3A /* RFDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67C59B1D6C2D1A00FBDC3A /* RFDetailCollectionViewCell.swift */; };
+		5C67C59E1D6C2D1A00FBDC3A /* RFDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C67C59C1D6C2D1A00FBDC3A /* RFDetailCollectionViewCell.xib */; };
+		5C67C5A01D6C40A500FBDC3A /* RFProdectDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67C59F1D6C40A500FBDC3A /* RFProdectDetailBottomView.swift */; };
+		5C67C5A21D6C423C00FBDC3A /* RFComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67C5A11D6C423C00FBDC3A /* RFComment.swift */; };
+		5C67C5A41D6C432F00FBDC3A /* RFProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67C5A31D6C432F00FBDC3A /* RFProductDetail.swift */; };
+		5C67C5A61D6C47E300FBDC3A /* RFDetailChoiceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C67C5A51D6C47E300FBDC3A /* RFDetailChoiceButtonView.swift */; };
+		5C67C5A81D6C47FB00FBDC3A /* RFDetailChoiceButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C67C5A71D6C47FB00FBDC3A /* RFDetailChoiceButtonView.xib */; };
 		5C907E511D62EEF400FBF5F9 /* RFHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C907E4F1D62EEF400FBF5F9 /* RFHomeCell.swift */; };
 		5C907E521D62EEF400FBF5F9 /* RFHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C907E501D62EEF400FBF5F9 /* RFHomeCell.xib */; };
 		6BF6832C46665408CACD03BB /* Pods_DanTangSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F46882E26C1E815E30FDB0E /* Pods_DanTangSwift.framework */; };
@@ -90,6 +105,13 @@
 		5C52E8211D646255007C1AC2 /* RFSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFSearchViewController.swift; sourceTree = "<group>"; };
 		5C52E8231D64636D007C1AC2 /* RFSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFSearchResult.swift; sourceTree = "<group>"; };
 		5C52E8251D647158007C1AC2 /* RFSearchRecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFSearchRecordView.swift; sourceTree = "<group>"; };
+		5C5D238B1D6ACB5500B79329 /* RFRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFRefreshControl.swift; sourceTree = "<group>"; };
+		5C5D238D1D6AD20800B79329 /* RFRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFRefreshView.swift; sourceTree = "<group>"; };
+		5C5D238F1D6AD23E00B79329 /* RFRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFRefreshView.xib; sourceTree = "<group>"; };
+		5C5D23911D6AF4F800B79329 /* RFProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFProductDetailViewController.swift; sourceTree = "<group>"; };
+		5C5D23931D6AF52100B79329 /* RFTMALLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFTMALLViewController.swift; sourceTree = "<group>"; };
+		5C5D23941D6AF52100B79329 /* RFTMALLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFTMALLViewController.xib; sourceTree = "<group>"; };
+		5C5D23971D6AF89300B79329 /* RFDetailScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFDetailScrollView.swift; sourceTree = "<group>"; };
 		5C6220E01D61B1A100ECA63C /* RFTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFTopicViewController.swift; sourceTree = "<group>"; };
 		5C6220E21D61B28000ECA63C /* RFHomeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFHomeItem.swift; sourceTree = "<group>"; };
 		5C6220E81D61BB5C00ECA63C /* UIView+Add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Add.swift"; sourceTree = "<group>"; };
@@ -101,6 +123,14 @@
 		5C62A1661D66F44800D53BAD /* RFSortTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFSortTableView.swift; sourceTree = "<group>"; };
 		5C62A1681D66F85400D53BAD /* RFSortCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFSortCell.swift; sourceTree = "<group>"; };
 		5C62A1691D66F85400D53BAD /* RFSortCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFSortCell.xib; sourceTree = "<group>"; };
+		5C67C5991D6C2A4600FBDC3A /* RFProductDetailTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFProductDetailTopView.swift; sourceTree = "<group>"; };
+		5C67C59B1D6C2D1A00FBDC3A /* RFDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C67C59C1D6C2D1A00FBDC3A /* RFDetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		5C67C59F1D6C40A500FBDC3A /* RFProdectDetailBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFProdectDetailBottomView.swift; sourceTree = "<group>"; };
+		5C67C5A11D6C423C00FBDC3A /* RFComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFComment.swift; sourceTree = "<group>"; };
+		5C67C5A31D6C432F00FBDC3A /* RFProductDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFProductDetail.swift; sourceTree = "<group>"; };
+		5C67C5A51D6C47E300FBDC3A /* RFDetailChoiceButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFDetailChoiceButtonView.swift; sourceTree = "<group>"; };
+		5C67C5A71D6C47FB00FBDC3A /* RFDetailChoiceButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFDetailChoiceButtonView.xib; sourceTree = "<group>"; };
 		5C907E4F1D62EEF400FBF5F9 /* RFHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFHomeCell.swift; sourceTree = "<group>"; };
 		5C907E501D62EEF400FBF5F9 /* RFHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RFHomeCell.xib; sourceTree = "<group>"; };
 		C258FA3AD0FEEA9A638D3DF2 /* Pods-DanTangSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanTangSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanTangSwift/Pods-DanTangSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -272,6 +302,9 @@
 				5C62A1661D66F44800D53BAD /* RFSortTableView.swift */,
 				5C62A1681D66F85400D53BAD /* RFSortCell.swift */,
 				5C62A1691D66F85400D53BAD /* RFSortCell.xib */,
+				5C5D238B1D6ACB5500B79329 /* RFRefreshControl.swift */,
+				5C5D238D1D6AD20800B79329 /* RFRefreshView.swift */,
+				5C5D238F1D6AD23E00B79329 /* RFRefreshView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -359,6 +392,9 @@
 			isa = PBXGroup;
 			children = (
 				5C44E0B61D5DB9580081B0DD /* RFProductViewController.swift */,
+				5C5D23911D6AF4F800B79329 /* RFProductDetailViewController.swift */,
+				5C5D23931D6AF52100B79329 /* RFTMALLViewController.swift */,
+				5C5D23941D6AF52100B79329 /* RFTMALLViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -367,6 +403,8 @@
 			isa = PBXGroup;
 			children = (
 				5C62A15C1D66D7DD00D53BAD /* RFProduct.swift */,
+				5C67C5A11D6C423C00FBDC3A /* RFComment.swift */,
+				5C67C5A31D6C432F00FBDC3A /* RFProductDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -376,6 +414,13 @@
 			children = (
 				5C62A1581D66B0F000D53BAD /* RFCollectionViewCell.swift */,
 				5C62A1591D66B0F000D53BAD /* RFCollectionViewCell.xib */,
+				5C5D23971D6AF89300B79329 /* RFDetailScrollView.swift */,
+				5C67C5991D6C2A4600FBDC3A /* RFProductDetailTopView.swift */,
+				5C67C59F1D6C40A500FBDC3A /* RFProdectDetailBottomView.swift */,
+				5C67C5A51D6C47E300FBDC3A /* RFDetailChoiceButtonView.swift */,
+				5C67C5A71D6C47FB00FBDC3A /* RFDetailChoiceButtonView.xib */,
+				5C67C59B1D6C2D1A00FBDC3A /* RFDetailCollectionViewCell.swift */,
+				5C67C59C1D6C2D1A00FBDC3A /* RFDetailCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -538,9 +583,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C907E521D62EEF400FBF5F9 /* RFHomeCell.xib in Resources */,
+				5C5D23961D6AF52100B79329 /* RFTMALLViewController.xib in Resources */,
 				5C407B9D1D5DB51400741154 /* LaunchScreen.storyboard in Resources */,
+				5C67C59E1D6C2D1A00FBDC3A /* RFDetailCollectionViewCell.xib in Resources */,
+				5C67C5A81D6C47FB00FBDC3A /* RFDetailChoiceButtonView.xib in Resources */,
 				5C62A1651D66E01E00D53BAD /* RFLoginViewController.xib in Resources */,
 				5C407B9A1D5DB51400741154 /* Assets.xcassets in Resources */,
+				5C5D23901D6AD23E00B79329 /* RFRefreshView.xib in Resources */,
 				5C62A16B1D66F85400D53BAD /* RFSortCell.xib in Resources */,
 				5C407B981D5DB51400741154 /* Main.storyboard in Resources */,
 				5C62A15B1D66B0F000D53BAD /* RFCollectionViewCell.xib in Resources */,
@@ -616,9 +665,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C67C59A1D6C2A4600FBDC3A /* RFProductDetailTopView.swift in Sources */,
 				5C52E8221D646255007C1AC2 /* RFSearchViewController.swift in Sources */,
 				5C407B951D5DB51400741154 /* ViewController.swift in Sources */,
 				5C44E0BB1D5DB9580081B0DD /* RFBaseViewController.swift in Sources */,
+				5C67C5A01D6C40A500FBDC3A /* RFProdectDetailBottomView.swift in Sources */,
 				5C62A1671D66F44800D53BAD /* RFSortTableView.swift in Sources */,
 				5C44E0BD1D5DB9580081B0DD /* RFTabBarController.swift in Sources */,
 				5C44E0C21D5DC5CC0081B0DD /* RFNetworkTool.swift in Sources */,
@@ -632,13 +683,22 @@
 				5C6220E11D61B1A100ECA63C /* RFTopicViewController.swift in Sources */,
 				5C44E0B91D5DB9580081B0DD /* RFCategoryViewController.swift in Sources */,
 				5C44E0C01D5DB9580081B0DD /* RFProductViewController.swift in Sources */,
+				5C5D23981D6AF89300B79329 /* RFDetailScrollView.swift in Sources */,
 				5C407B931D5DB51400741154 /* AppDelegate.swift in Sources */,
+				5C5D238C1D6ACB5500B79329 /* RFRefreshControl.swift in Sources */,
 				5C907E511D62EEF400FBF5F9 /* RFHomeCell.swift in Sources */,
+				5C67C5A41D6C432F00FBDC3A /* RFProductDetail.swift in Sources */,
+				5C5D238E1D6AD20800B79329 /* RFRefreshView.swift in Sources */,
+				5C5D23951D6AF52100B79329 /* RFTMALLViewController.swift in Sources */,
 				5C52E8241D64636D007C1AC2 /* RFSearchResult.swift in Sources */,
+				5C5D23921D6AF4F800B79329 /* RFProductDetailViewController.swift in Sources */,
 				5C62A16A1D66F85400D53BAD /* RFSortCell.swift in Sources */,
+				5C67C59D1D6C2D1A00FBDC3A /* RFDetailCollectionViewCell.swift in Sources */,
 				5C62A1641D66E01E00D53BAD /* RFLoginViewController.swift in Sources */,
+				5C67C5A61D6C47E300FBDC3A /* RFDetailChoiceButtonView.swift in Sources */,
 				5C44E0BA1D5DB9580081B0DD /* RFDanTangViewController.swift in Sources */,
 				5C62A15D1D66D7DD00D53BAD /* RFProduct.swift in Sources */,
+				5C67C5A21D6C423C00FBDC3A /* RFComment.swift in Sources */,
 				5C44E0C41D5DC7200081B0DD /* RFChannel.swift in Sources */,
 				5C6220E91D61BB5C00ECA63C /* UIView+Add.swift in Sources */,
 			);

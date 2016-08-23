@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RFDetailChoiceButtonView" customModule="DanTangSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="460" height="63"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwJ-vq-9nd" userLabel="图文介绍">
+                    <rect key="frame" x="0.0" y="0.0" width="230" height="63"/>
+                    <state key="normal" title="图文介绍">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="introduceButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="7p3-QJ-3o9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjI-jV-Opo" userLabel="评论">
+                    <rect key="frame" x="230" y="0.0" width="230" height="63"/>
+                    <state key="normal" title="评论">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="commentButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="jp7-aF-q5I"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DgL-Ye-oZx" userLabel="Line View">
+                    <rect key="frame" x="0.0" y="61" width="230" height="2"/>
+                    <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="nWs-qv-MPO"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VEs-rq-CDm" userLabel="MidLine View">
+                    <rect key="frame" x="230" y="0.0" width="1" height="61"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="5GM-51-L0X"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="pjI-jV-Opo" firstAttribute="width" secondItem="pwJ-vq-9nd" secondAttribute="width" id="0iO-mA-43g"/>
+                <constraint firstItem="DgL-Ye-oZx" firstAttribute="width" secondItem="pwJ-vq-9nd" secondAttribute="width" id="17W-7G-dY3"/>
+                <constraint firstItem="DgL-Ye-oZx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2td-zz-tRv"/>
+                <constraint firstItem="pwJ-vq-9nd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="43e-lF-lAq"/>
+                <constraint firstAttribute="trailing" secondItem="pjI-jV-Opo" secondAttribute="trailing" id="4wb-iG-89N"/>
+                <constraint firstItem="pjI-jV-Opo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Abv-Mc-UM9"/>
+                <constraint firstAttribute="bottom" secondItem="VEs-rq-CDm" secondAttribute="bottom" constant="2" id="BS9-AA-4cM"/>
+                <constraint firstAttribute="bottom" secondItem="pwJ-vq-9nd" secondAttribute="bottom" id="D1J-Er-0tL"/>
+                <constraint firstItem="pwJ-vq-9nd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LGR-i7-8PI"/>
+                <constraint firstItem="VEs-rq-CDm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NZF-6G-iLg"/>
+                <constraint firstAttribute="bottom" secondItem="pjI-jV-Opo" secondAttribute="bottom" id="d1n-IF-1ep"/>
+                <constraint firstAttribute="bottom" secondItem="DgL-Ye-oZx" secondAttribute="bottom" id="t5B-vH-b5K"/>
+                <constraint firstItem="pjI-jV-Opo" firstAttribute="leading" secondItem="pwJ-vq-9nd" secondAttribute="trailing" id="uHz-Sc-vIC"/>
+                <constraint firstItem="VEs-rq-CDm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xrZ-H5-eeh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="commentButton" destination="pjI-jV-Opo" id="K2w-R6-FE3"/>
+                <outlet property="leadingConstraint" destination="2td-zz-tRv" id="09A-5w-np3"/>
+                <outlet property="lineView" destination="DgL-Ye-oZx" id="4E6-h0-ybo"/>
+            </connections>
+            <point key="canvasLocation" x="502" y="175.5"/>
+        </view>
+    </objects>
+</document>
