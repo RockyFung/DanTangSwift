@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="159" id="KGk-i7-Jjw" customClass="RFCollectionTableViewCell" customModule="DanTangSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="159"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="158"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDP-Gc-0nl" userLabel="Placeholder Button">
+                        <rect key="frame" x="167" y="66" width="31" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="31" id="AMP-Ei-B2b"/>
+                            <constraint firstAttribute="height" constant="26" id="sMa-NH-kug"/>
+                        </constraints>
+                        <state key="normal" image="PlaceHolderImage_small_31x26_"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cdj-ER-Mu4" userLabel="Bg Image View">
+                        <rect key="frame" x="8" y="8" width="349" height="142"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa5-cr-RMI" userLabel="Title Label">
+                        <rect key="frame" x="13" y="124" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77O-Ac-mQQ" userLabel="Like Button">
+                        <rect key="frame" x="324" y="13" width="28" height="25"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="tdo-M7-I0W"/>
+                        </constraints>
+                        <state key="normal" title="0" image="Feed_FavoriteIcon_17x17_"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LDP-Gc-0nl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="7cM-rR-L1V"/>
+                    <constraint firstItem="Cdj-ER-Mu4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Bph-H5-7DD"/>
+                    <constraint firstItem="fa5-cr-RMI" firstAttribute="leading" secondItem="Cdj-ER-Mu4" secondAttribute="leading" constant="5" id="ILg-8e-xTi"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Cdj-ER-Mu4" secondAttribute="trailing" id="V0Z-SK-8bQ"/>
+                    <constraint firstItem="Cdj-ER-Mu4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="W0w-GX-jqm"/>
+                    <constraint firstItem="77O-Ac-mQQ" firstAttribute="trailing" secondItem="Cdj-ER-Mu4" secondAttribute="trailing" constant="-5" id="WaB-OB-u3G"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Cdj-ER-Mu4" secondAttribute="bottom" id="Xqw-Z1-Ymu"/>
+                    <constraint firstItem="LDP-Gc-0nl" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="bwc-DW-EwG"/>
+                    <constraint firstItem="fa5-cr-RMI" firstAttribute="bottom" secondItem="Cdj-ER-Mu4" secondAttribute="bottom" constant="-5" id="oth-88-vPs"/>
+                    <constraint firstItem="77O-Ac-mQQ" firstAttribute="top" secondItem="Cdj-ER-Mu4" secondAttribute="top" constant="5" id="uPu-mI-FUd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgImageView" destination="Cdj-ER-Mu4" id="LMu-Ea-hop"/>
+                <outlet property="likeButton" destination="77O-Ac-mQQ" id="Wtl-OI-dKs"/>
+                <outlet property="placeholderButton" destination="LDP-Gc-0nl" id="gBa-Zm-sDI"/>
+                <outlet property="titleLabel" destination="fa5-cr-RMI" id="0AJ-MN-Fuh"/>
+            </connections>
+            <point key="canvasLocation" x="331.5" y="389.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Feed_FavoriteIcon_17x17_" width="17" height="17"/>
+        <image name="PlaceHolderImage_small_31x26_" width="31" height="26"/>
+    </resources>
+</document>

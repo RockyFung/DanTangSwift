@@ -23,6 +23,13 @@ class RFProductDetailViewController: RFBaseViewController {
         return scrollView
     }()
     
+    // 底部栏
+    private lazy var toolBarView: RFProductDetailToolBar = {
+       let toolBarView = NSBundle.mainBundle().loadNibNamed(String(RFProductDetailToolBar), owner: nil, options: nil).last as! RFProductDetailToolBar
+        toolBarView.delegate = self
+        return toolBarView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
@@ -32,35 +39,66 @@ class RFProductDetailViewController: RFBaseViewController {
     func setupUI(){
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "GiftShare_icon_18x22_"), style: .Plain, target: self, action: #selector(shareBBItemClick))
         view.addSubview(scrollView)
+        // 添加底部栏
+        view.addSubview(toolBarView)
+        
+        
         scrollView.product = product
         scrollView.snp_makeConstraints { (make) in
             make.top.left.right.equalTo(view)
-            make.height.equalTo(600)
+            make.bottom.equalTo(toolBarView.snp_top)
         }
-        scrollView.contentSize = CGSizeMake(SCREENW, SCREENH - 64 - 45 + kMargin + 520)
-        // 添加底部栏
+       
+        
+        
+        toolBarView.snp_makeConstraints { (make) in
+            make.left.bottom.right.equalTo(view)
+            make.height.equalTo(45)
+        }
+        
+         scrollView.contentSize = CGSizeMake(SCREENW, SCREENH - 64 - 45 + kMargin + 520)
         
     }
     
     // 分享按钮
     func shareBBItemClick(){
-        
+        print("点击分享！！！！")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
+
+extension RFProductDetailViewController: RFProductDetailToolBarDelegate, UIScrollViewDelegate{
+    // 点击底部天猫按钮
+    func toolBarDidClickedTMALLButton() {
+        let tmallVC = RFTMALLViewController()
+        tmallVC.product = product
+        tmallVC.title = "商品详情"
+        let nav = RFNavigationController(rootViewController: tmallVC)
+        presentViewController(nav, animated: true, completion: nil)
+    }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        var offsetY = scrollView.contentOffset.y
+        if offsetY >= 465{
+            offsetY = CGFloat(465)
+            scrollView.contentOffset = CGPointMake(0, offsetY)
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -64,24 +64,30 @@ let kYMMineHeaderImageHeight: CGFloat = 200
 let kTopViewH: CGFloat = 230
 
 
-/// RGBA的颜色设置
-func YMColor(r:CGFloat, g:CGFloat, b:CGFloat, a:CGFloat) -> UIColor {
-    return UIColor(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: a)
-}
-
-/// 背景灰色
-func YMGlobalColor() -> UIColor {
-    return YMColor(240, g: 240, b: 240, a: 1)
-}
-
-/// 红色
-func YMGlobalRedColor() -> UIColor {
-    return YMColor(245, g: 80, b: 83, a: 1.0)
-}
-
 /// iPhone 5
 let isIPhone5 = SCREENH == 568 ? true : false
 /// iPhone 6
 let isIPhone6 = SCREENH == 667 ? true : false
 /// iPhone 6P
 let isIPhone6P = SCREENH == 736 ? true : false
+
+
+
+
+enum RFOtherLoginButtonType: Int {
+    /// 微博
+    case weiboLogin = 100
+    /// 微信
+    case weChatLogin = 101
+    /// QQ
+    case QQLogin = 102
+}
+
+
+
+
+
+
+
+
+

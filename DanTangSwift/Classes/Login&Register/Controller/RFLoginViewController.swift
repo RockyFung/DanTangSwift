@@ -8,12 +8,18 @@
 
 import UIKit
 
-class RFLoginViewController: UIViewController {
+class RFLoginViewController: RFBaseViewController {
 
+    @IBOutlet weak var mobileField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var forgetPwdBtn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupBarButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +27,35 @@ class RFLoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: - 设置导航栏按钮
+    private func setupBarButtonItem() {
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "取消", style: .Plain, target: self, action: #selector(cancelButtonClick))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "注册", style: .Plain, target: self, action: #selector(regiisterButtonClick))
+    }
+    /// 取消按钮点击
+    func cancelButtonClick() {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    /// 注册按钮点击
+    func regiisterButtonClick() {
+        let registerVC = RFRegisterViewController()
+        registerVC.title = "注册"
+        navigationController?.pushViewController(registerVC, animated: true)
+    }
+    
+    // 其他方式登录
+    @IBAction func otherLoginType(sender: UIButton) {
+        if let buttonType = RFOtherLoginButtonType(rawValue: sender.tag){
+            switch buttonType {
+            case .weiboLogin:
+                break
+            case .weChatLogin:
+                break
+            case .QQLogin:
+                break
+            }
+        }
+    }
 
     /*
     // MARK: - Navigation

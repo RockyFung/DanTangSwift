@@ -22,6 +22,7 @@ class RFDetailChoiceButtonView: UIView {
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     
     
+    
     // 图文介绍按钮
     @IBAction func introduceButtonClick(sender: UIButton) {
         UIView.animateWithDuration(kAnimationDuration) { 
